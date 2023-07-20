@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="external.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR  -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">Django Web Development</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kategoriler
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Kameralar</a></li>
+              <li><a class="dropdown-item" href="#">Geçiş Sistemleri</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Montaj</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="iletisim.html">İletisim</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Arama Yap" aria-label="Arama Yap">
+          <button class="btn btn-outline-info" type="submit">Ara</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- NAVBAR END-->
+
+  <!-- CAROUSEL -->
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/id/49/1200/400" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/69/1200/400" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/79/1200/400" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- CAROUSEL END-->
+
+  <!-- HERO CONTENT-->
+
+  <div class="container-fluid">
+    <div class="row bg-warning p-5 text-center">
+      <div class="h-100 p-4 mt-3 mb-3 text-white bg-dark rounded-3 col-sm-8 offset-sm-2">
+        <h2 class="text-center">Django WEB</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nemo deleniti at officia
+          adipisci asperiores placeat culpa non rerum atque.</p>
+        <button class="btn btn-outline-light btn-center" type="button">Explore More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO CONTENT END -->
+
+  <!-- ABOUT US -->
+
+  <div class="container-fluid">
+    <div class="row bg-dark text-light">
+      <div class="col-sm-6 p-0">
+        <img src="https://picsum.photos/id/99/600/300" alt="" class="w-100">
+      </div>
+      <div class="col-sm-6 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <h2 class="my-2 d-1">Hakkımızda</h2>
+          <p class="px-5 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum eius molestiae id,
+            nihil hic debitis voluptas minus exercitationem dicta, accusamus alias magnam quo laborum quod, eos illo
+            voluptate! Illum?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT US END-->
+
+  <!-- PRODUCTS -->
+
+  <div class="container-fluid bg-warning">
+    <div class="container">
+      <div class="row p-4">
+        <h2 class="col-sm-12 text-dark text-center">
+          Ürünlerimiz
+        </h2>
+        <hr>
+        <div class="col-sm-4">
+          <div class="card mb-4">
+            <img src="https://picsum.photos/id/199/400/250" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Ürün 1</h5>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
+                the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card mb-4">
+            <img src="https://picsum.photos/id/19/400/250" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Ürün 2</h5>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
+                the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card mb-4">
+            <img src="https://picsum.photos/id/129/400/250" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Ürün 3</h5>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
+                the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCTS END -->
+
+  <!-- PROJECTS -->
+
+  <div class="bg-warning">
+    <div class="container">
+      <div class="row pb-4">
+        <div class="col-12">
+          <h2 class="text-center">Projelerimiz</h2>
+        </div>
+        <hr>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/21/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/22/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/23/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/24/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/25/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/26/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/27/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+        <div class="col-sm col-6"><img src="https://picsum.photos/id/28/100/80" alt="" class="w-100 img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS END -->
+
+  <!-- FOOTER -->
+
+
+  <footer class="py-3 bg-dark">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item "><a href="#" class="nav-link px-2 text-white">Home</a></li>
+      <li class="nav-item "><a href="#" class="nav-link px-2 text-white">Features</a></li>
+      <li class="nav-item "><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+      <li class="nav-item "><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+      <li class="nav-item "><a href="#" class="nav-link px-2 text-white">About</a></li>
+    </ul>
+    <p class="text-center text-white">© 2023 Django Company, Inc</p>
+  </footer>
+
+  <!-- FOOTER END -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

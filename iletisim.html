@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="external.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">Hakkımızda | Django Web Development</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Kategoriler
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Kameralar</a></li>
+                            <li><a class="dropdown-item" href="#">Geçiş Sistemleri</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Montaj</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="iletisim.html">İletisim</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Arama Yap" aria-label="Arama Yap">
+                    <button class="btn btn-outline-info" type="submit">Ara</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- NAVBAR END-->
+
+
+    <!-- HERO CONTENT-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 px-0">
+                <img src="https://picsum.photos/id/89/600/200" alt="" class="w-100">
+            </div>
+            <div class="row bg-warning p-3 ms-0 text-center">
+                <div class="h-100 pb-5  text-white bg-dark rounded-3 col-sm-8 offset-sm-2">
+                    <h2 class="text-center mt-5">Hakkımızda</h2>
+                    <p class="text-center px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Exercitationem, sunt. Consequatur veritatis
+                        similique quos! Eaque perferendis iusto neque nostrum in, eligendi hic, assumenda nulla nam
+                        tenetur quasi quae soluta eum aspernatur facere! Unde veritatis neque saepe. Aperiam, incidunt?
+                        Nostrum voluptatibus facilis, consectetur eligendi magnam aperiam vero rem officiis animi error
+                        provident fugiat!</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO CONTENT END -->
+
+    <!-- ABOUT US -->
+
+    <div class="container-fluid">
+        <div class="row bg-dark text-light">
+            <div class="col-sm-6 p-0">
+                <img src="https://picsum.photos/id/99/600/300" alt="" class="w-100">
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="my-2 d-1">Birikimlerimiz</h2>
+                    <p class="px-5 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum eius
+                        molestiae id,
+                        nihil hic debitis voluptas minus exercitationem dicta, accusamus alias magnam quo laborum quod,
+                        eos illo
+                        voluptate! Illum?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT US END-->
+
+
+    <!-- FORM -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2 my-3 ">
+                <h2>Adresimiz</h2> 
+                <address>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias quas ut dolorum
+                        facere dolor debitis. Fugit distinctio perspiciatis iusto.</p>
+                    <p>Impedit, neque voluptas? Alias quia ipsum numquam libero optio pariatur, voluptates eius,
+                        consectetur incidunt tempora molestias voluptate perferendis, soluta facere?</p>
+                    <p>Officiis fugiat similique harum odio maxime, quas repudiandae, molestiae labore cum quaerat
+                        aperiam laboriosam deleniti libero amet culpa ipsa possimus!</p>
+                </address>
+
+                <hr>
+
+                <h2>Bize ulaşın</h2>
+                <h6 class="text-info">Form Veritabanına Bağlı Değildir!</h6>
+                <form class="row g-3 mt-1 mb-5">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Şifre</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Adres Satırı</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1.Cadde 2.Sokak 3/4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Adres Tarifi</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Örn: Heykelin karşısındaki apartman">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Şehir</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <!-- <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div> -->
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Posta Kodu</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Lisans Sözleşmesini okudum, onaylıyorum.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM END -->
+
+
+    <!-- PROJECTS -->
+
+    <div class="bg-warning py-5">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-12">
+                    <h2 class="text-center">Projelerimiz</h2>
+                </div>
+                <hr>
+                <div class="row bg-dark py-4 px-3 rounded-5">
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/21/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/22/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/23/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/24/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/25/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/26/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/27/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                    <div class="col-sm col-6"><img src="https://picsum.photos/id/28/100/80" alt=""
+                            class="w-100 img-thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS END -->
+
+    <!-- FOOTER -->
+
+
+    <footer class="py-3 bg-dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item "><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <li class="nav-item "><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li class="nav-item "><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li class="nav-item "><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li class="nav-item "><a href="#" class="nav-link px-2 text-white">About</a></li>
+        </ul>
+        <p class="text-center text-white">© 2023 Django Company, Inc</p>
+    </footer>
+
+    <!-- FOOTER END -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
